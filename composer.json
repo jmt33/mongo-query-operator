@@ -1,0 +1,21 @@
+{
+    "name": "jmt33/mongo-query-oprator",
+    "type": "library",
+    "description": "mongo query operator of php tool",
+    "keywords": ["mongodb", "query"],
+    "homepage": "https://github.com/jmt33/mongo-query-oprator",
+    "license": "MIT",
+    "authors": [{
+        "name": "mtao",
+        "email": "jmtao33@gmail.com"
+    }],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "psr-4": {
+      "Utils\\": "src/"
+    }
+}
